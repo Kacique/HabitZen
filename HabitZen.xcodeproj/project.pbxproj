@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34566AC52A0BE08300422DA7 /* HabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34566AC42A0BE08300422DA7 /* HabitItem.swift */; };
+		34566AC72A0BE1A800422DA7 /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34566AC62A0BE1A800422DA7 /* Habits.swift */; };
+		34C029F72A0C05D500EBFD4D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C029F62A0C05D500EBFD4D /* AddView.swift */; };
 		34CAD9F42A0BD86E009745BB /* HabitZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAD9F32A0BD86E009745BB /* HabitZenApp.swift */; };
 		34CAD9F62A0BD86E009745BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAD9F52A0BD86E009745BB /* ContentView.swift */; };
 		34CAD9F82A0BD870009745BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CAD9F72A0BD870009745BB /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34566AC42A0BE08300422DA7 /* HabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItem.swift; sourceTree = "<group>"; };
+		34566AC62A0BE1A800422DA7 /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
+		34C029F62A0C05D500EBFD4D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		34CAD9F02A0BD86E009745BB /* HabitZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CAD9F32A0BD86E009745BB /* HabitZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitZenApp.swift; sourceTree = "<group>"; };
 		34CAD9F52A0BD86E009745BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				34CAD9F32A0BD86E009745BB /* HabitZenApp.swift */,
 				34CAD9F52A0BD86E009745BB /* ContentView.swift */,
+				34C029F62A0C05D500EBFD4D /* AddView.swift */,
+				34566AC42A0BE08300422DA7 /* HabitItem.swift */,
+				34566AC62A0BE1A800422DA7 /* Habits.swift */,
 				34CAD9F72A0BD870009745BB /* Assets.xcassets */,
 				34CAD9F92A0BD870009745BB /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				34CAD9F62A0BD86E009745BB /* ContentView.swift in Sources */,
 				34CAD9F42A0BD86E009745BB /* HabitZenApp.swift in Sources */,
+				34C029F72A0C05D500EBFD4D /* AddView.swift in Sources */,
+				34566AC72A0BE1A800422DA7 /* Habits.swift in Sources */,
+				34566AC52A0BE08300422DA7 /* HabitItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
